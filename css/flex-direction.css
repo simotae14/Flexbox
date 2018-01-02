@@ -1,0 +1,77 @@
+/* Your code goes here */
+/*
+allineamento default
+*/
+/*
+.container {
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;	
+	float: right;
+	border: 1px solid #fff;
+	width: 100%;
+}
+
+.container div {
+	float: right;
+}
+*/
+
+/*
+allineamento su riga con child da dx a sx
+*/
+/*
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.container div {
+	float: right;
+}
+*/
+
+/*
+allineamento su colonna con child da alto a basso
+*/
+/*
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.container div {
+	float: right;
+}
+*/
+/*
+allineamento su colonna con child da basso a alto
+*/
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+.container div {
+	float: right;
+}
+
+
+
