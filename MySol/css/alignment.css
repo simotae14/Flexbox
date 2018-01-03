@@ -1,24 +1,24 @@
-
+/* allinea elementi verso top del container */
 .align-start {
   -ms-align-items: flex-start;
   align-items: flex-start;
 }
-
+/* allinea elementi verso il bottom del container */
 .align-end {
   -ms-align-items: flex-end;
   align-items: flex-end;
 }
-
+/* allinea elementi al centro del container */
 .align-center {
   -ms-align-items: center;
   align-items: center;
 }
-
+/* VAL DEFAULT: gli elementi occupna tutta altezza container */
 .align-stretch {
   -ms-align-items: stretch;
   align-items: stretch;
 }
-
+/* elementi allineati in base a stessa altezza base del contenuto elementi */
 .align-baseline {
   -ms-align-items: baseline;
   align-items: baseline;
