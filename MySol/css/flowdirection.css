@@ -1,0 +1,23 @@
+/* regole comuni */
+.row, .row-reverse, .column, .column-reverse {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-bottom: 50px;
+}
+/* direzione row */
+.row {
+  flex-direction: row;
+}
+/* direzione row inverso */
+.row-reverse {
+  flex-direction: row-reverse;
+}
+/* direzione colonna */
+.column {
+  flex-direction: column;
+}
+/* direzione colonna inverso */
+.column-reverse {
+  flex-direction: column-reverse;
+}
