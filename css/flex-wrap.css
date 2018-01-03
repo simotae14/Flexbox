@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	flex-flow: row-reverse wrap-reverse;
+	justify-content: flex-start;
+	align-items: baseline;
+	border: 1px solid #fff;
+	height: 200px;
+	width: 500px;
+}
+
+.container div {
+	float: right;
+}

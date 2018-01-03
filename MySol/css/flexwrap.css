@@ -2,15 +2,15 @@
 body {
   padding: 200px;
 }
-
+/* caso che non gestisce overflow */
 .nowrap {
   flex-wrap: nowrap;
 }
-
+/* caso che manda a capo l'overflow */
 .wrap {
   flex-wrap: wrap;
 }
-
+/* caso che manda a capo l'overflow in modo inverso da sotto a sopra */
 .wrap-reverse {
   flex-wrap: wrap-reverse;
 }
