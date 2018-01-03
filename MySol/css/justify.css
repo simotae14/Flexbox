@@ -1,20 +1,20 @@
-
+/* allineamento classico */
 .justify-start {
   justify-content: flex-start;
 }
-
+/* allineamento opposto a flex-direction */
 .justify-end {
   justify-content: flex-end;
 }
-
+/* allineamento al centro */
 .justify-center {
   justify-content: center;
 }
-
+/* allineamento mettendo spazio intorno ogni item */
 .justify-around {
   justify-content: space-around;
 }
-
+/* allineamento mettendo spazio intorno ogni item tranne all'inizio e alla fine*/
 .justify-between {
   justify-content: space-between;
 }
