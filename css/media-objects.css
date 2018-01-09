@@ -1,0 +1,19 @@
+/* Your code goes here */
+.media {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.figure {
+	flex: 1 1 30%;
+	align-self: flex-start;
+	order: 0;
+}
+
+.media-body {
+	flex: 1 1 60%;
+}
+
+p {
+	margin: 0 10px 20px 10px;
+}
